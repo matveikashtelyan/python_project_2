@@ -1,0 +1,25 @@
+Hello, World!
+My name's Matvei, I'm now working on my Python project from Python course.
+Hello, World! My name's Matvei, I'm now doing my Python project for MIPT course.
+This is today's date: 05.04.23, time is 09:42.
+
+Bla bla bla? Yes, bla. Today I'm curious to find out if my bot 1234567890!!! is working properly.
+
+Ciphertext example
+
+One of the earliest and simplest ciphers is the Caesar cipher, which uses a symmetric key
+algorithm. The key acts as a shared secret between two (or more) parties that can be used to
+ send secret information no one can read without a copy of the key.
+
+The Caesar cipher is a substitution cipher in which each letter in the plaintext is "shifted"
+a certain number of places down the alphabet. For example, with a shift of 1, A would be B, B
+ would be replaced by C, etc. The method is named after Julius Caesar, who is said to have used
+  it to communicate with his generals.
+
+Here is an example of the encryption and decryption steps involved with the Caesar cipher.
+The text to be encrypted is "defend the east wall of the castle," with a shift (key) of 1.
+
+    Plaintext: defend the east wall of the castle
+    Ciphertext: efgfoe uif fbtu xbmm pg uif dbtumf
+
+
