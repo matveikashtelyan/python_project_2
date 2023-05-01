@@ -2,15 +2,30 @@
 
 Телеграм бот, который может шифровать/дешифровать файлы клиента шифрами Цезаря, Виженера и Вернама. Также дешифрует зашифрованные шифром Цезаря файлы методом частотного анализа.
 
+
+Запустить бота можно по ссылке:
+```
+http://t.me/PythonCourse209394Bot
+```
+Для деплоя использовался сервис `Okteto`. 
+
 ```
 $ git clone git@github.com:matveikashtelyan/python_project_2.git
 ```
 Для запуска бота необходимо установить следующие модули:
 ```
+<<<<<<< HEAD
 pip install -U --pre aiogram
 pip install python-dotenv
 ```
 Склонировать репозиторий. Сама директория называется `python_project_2`. Зайти в эту директорию. Там находятся файлы `README.md`, `main.py`, `input.txt` и директория `src`, в которой лежат директории `tgbot` и `encryptor`. В директории `tgbot` лежат файлы `bot.py`, `types.py`, `variables.py`, `globals.py`. В директории `encryptor` лежат файлы `encryptapp.py` и `globals.py`.
+=======
+$ pip install -U --pre aiogram
+$ pip install python-dotenv
+```
+Склонировать репозиторий. Сама директория называется `python_project_2`. Зайти в эту директорию. Там находятся файлы `README.md`, `main.py`, `input.txt`, `okteto-compose.yaml`, 'Dockerfile' и директория `src`, в которой лежат директории `tgbot` и `encryptor`. В директории `tgbot` лежат файлы `bot.py`, `types.py`, `variables.py`, `globals.py`. В директории `encryptor` лежат файлы `encryptapp.py` и `globals.py`.
+
+>>>>>>> 2a7d692 (deployed bot, updated README)
 
 ## Запуск
 ```
@@ -294,4 +309,8 @@ $ fc input.txt
 ## Файл input.txt
 
 Файл, на котором тестировался бот. 
+
+## Файлы Dockerfile и okteto-copose.yaml
+
+Файлы, необходимые для деплоя бота. 
 
