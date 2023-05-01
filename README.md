@@ -7,8 +7,12 @@ $ git clone git@github.com:matveikashtelyan/python_project_2.git
 ```
 Для запуска бота необходимо установить следующие модули:
 ```
-pip install -U --pre aiogram
-pip install python-dotenv
+$ pip install -U --pre aiogram
+$ pip install python-dotenv
+```
+А также установить переменную окружения:
+```
+$ export TOKEN="6138364444:AAEG4qhd1tnjAT9hsKLJBPFH-D6tscZZidY"
 ```
 Склонировать репозиторий. Сама директория называется `python_project_2`. Зайти в эту директорию. Там находятся файлы `README.md`, `main.py`, `input.txt` и директория `src`, в которой лежат директории `tgbot` и `encryptor`. В директории `tgbot` лежат файлы `bot.py`, `types.py`, `variables.py`, `globals.py`. В директории `encryptor` лежат файлы `encryptapp.py` и `globals.py`.
 
